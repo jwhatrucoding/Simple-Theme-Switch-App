@@ -16,6 +16,7 @@ class HomePage extends StatelessWidget {
           color:Theme.of(context).colorScheme.primary,
           child: MyButton(
             color: Theme.of(context).colorScheme.secondary,
+            // TODO: Toggle appearance on tap
             onTap: () {},
           ),
         ),
